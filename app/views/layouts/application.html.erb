@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Edilok</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <%= link_to "Dashboard", dashboard_path %>
+        <%= link_to "Devices", devices_path %>
+        <%= link_to "Alerts", alerts_path %>
+        <%= link_to "Users", users_path %>
+        | You are signed in as <%= Current.user.name %>
+        (<%= link_to "Sign Out", signout_path, method: :delete %>)
+      </nav>
+    </header>
+    <%= yield %>
+  </body>
+</html>
