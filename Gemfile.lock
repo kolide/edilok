@@ -1,5 +1,7 @@
-PATH
-  remote: /Users/gothmog/development/rails
+GIT
+  remote: https://github.com/rails/rails.git
+  revision: 5940955ead7d1876d930f2d1008ff5887bfc6490
+  ref: 5940955ead7d1876d930f2d1008ff5887bfc6490
   specs:
     actioncable (7.1.0.alpha)
       actionpack (= 7.1.0.alpha)
