@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/terracatta/rails.git
-  revision: 929caf32562804de58ecd93687a59e28c2bae72e
-  ref: 929caf32562804de58ecd93687a59e28c2bae72e
+  revision: 4d6fe09aff670fea2d26009434812d7dcb84e1a6
+  ref: 4d6fe09aff670fea2d26009434812d7dcb84e1a6
   specs:
     actioncable (7.1.0.alpha)
       actionpack (= 7.1.0.alpha)
