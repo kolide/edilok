@@ -1,10 +1,10 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "3.0.3"
+ruby "3.1.3"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem 'rails', github: 'terracatta/rails', ref: 'a04084c'
+gem 'rails', path: "/Users/gothmog/development/rails"
 
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
