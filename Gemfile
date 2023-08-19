@@ -10,7 +10,7 @@ gem 'rails', github: 'terracatta/rails', ref: '4d6fe09aff670fea2d26009434812d7dc
 gem "sqlite3", "~> 1.4"
 
 # Use the Puma web server [https://github.com/puma/puma]
-gem "puma", "~> 5.0"
+gem "puma", "~> 5.6"
 
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem "importmap-rails", ">= 0.3.4"
